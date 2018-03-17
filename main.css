@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  
+    }
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+   padding: 0;
+    font-family: 'Bellefair', serif;
+   
+    
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+.quote-box{
+    border-radius: 3px;
+position: relative;
+margin: 8% auto auto auto;
+width: 40%;
+padding: 40px 50px;
+display: table;
+background-color: #fff;
+font-size: 1.75em;
+transition: all 0.8s linear;
+-webkit-box-shadow: 10px 10px 20px 0px rgba(20,16,20,1);
+-moz-box-shadow: 10px 10px 20px 0px rgba(20,16,20,1);
+box-shadow: 10px 10px 20px 0px rgba(20,16,20,1);
+}
+.quote-text{
+    text-align: center;
+}
+#text{
+    font-size: 30px;
+    margin-left:10px; 
+}
+.quote-author{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 0.75em;
+}
+.svg-inline--fa.fa-quote-left.fa-w-16.fa-2x {
+    margin-right: 0.5em;
+}
+.buttons {
+    margin-top: 20px;
+}
+#new-quote {
+
+    display: block;
+    height: 35px;
+    float: right;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(235,232,235,1);
+-moz-box-shadow: 10px 10px 10px 0px rgba(235,232,235,1);
+box-shadow: 10px 10px 10px 0px rgba(235,232,235,1);
+
+}
+div>a{
+    background: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+#new-quote:hover, div>a>:hover{
+opacity: 0.7;
+}
+
+footer{
+    text-align: center;
+}
+p, p > a {
+
+    color: wheat;
+
+}
+#twitter{
+  display: inline !important;
+}
+@media screen and (max-width: 769px) {
+    .quote-box{
+        width: 80%;
+    }
+
+}
